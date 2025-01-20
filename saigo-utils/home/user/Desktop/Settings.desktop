@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Settings
+Comment=Open XFCE4 settings menu
+Exec=xfce4-settings-manager
+Icon=org.xfce.settings.manager
+Path=
+Terminal=false
+StartupNotify=false

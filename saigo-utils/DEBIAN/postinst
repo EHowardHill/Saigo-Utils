@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Autologin
+/bin/sh -c 'mkdir -p /etc/sddm.conf.d && echo "[Autologin]\nUser=user\nSession=xfce.desktop\nRelogin=true" > /etc/sddm.conf.d/10-autologin.conf';
+
+# Set up SDDM
+systemctl disable lightdm;
+systemctl enable sddm;

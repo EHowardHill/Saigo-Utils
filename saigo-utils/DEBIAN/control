@@ -1,0 +1,5 @@
+Package: saigo-utils
+Version: 1.0.0
+Architecture: all
+Maintainer: Ethan Hill <ethan.hill1999@outlook.com>
+Description: Saigo desktop configuration
